@@ -1,0 +1,733 @@
+{
+  "reviews": [
+    {
+      "id": "tsv-001",
+      "university": "Uniwersytet Jagielloński w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Dla mnie te studia są super, jeszcze nie są dopracowane, ale idzie to w dobrym kierunku",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-002",
+      "university": "Uniwersytet Jagielloński w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Szału nie ma, oparte o kierunek biofizyki, wiec raczej zlepek randomowych kursów",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-003",
+      "university": "Uniwersytet Jagielloński w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Obecnie studia trochę niedopracowane, ale pracują nad tym. Możliwość magisterki z bioinfy. Sporo zajęć laboratoryjnych, trochę za mało informatycznych ale z roku na rok jest tego więcej. Można znaleźć zakłady zajmujące się badaniem roślin, neuronów i innych komórek ludzkich. Na stronie wbbib uj jest rozpiska z badaniami zakładów. Ja bardzo polecam!",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-004",
+      "university": "Uniwersytet Jagielloński w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "Przestarzały program, brak zaplecza ze znajomością aktualnych trendów, program sprzed dekady praktycznie nieaktualizowany.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-005",
+      "university": "Uniwersytet Komisji Edukacji Narodowej w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Ogólnie to nie nauczysz się tu nic :)",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-006",
+      "university": "Uniwersytet Komisji Edukacji Narodowej w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "troszkę brakuje organizacji od uczelni, prowadzący zajęcia często są niekompetentni.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-007",
+      "university": "Uniwersytet Komisji Edukacji Narodowej w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "zajęcia z programowania odbywają się z fake teachers",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-008",
+      "university": "Uniwersytet Komisji Edukacji Narodowej w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "zdać sesje nie jest ciężko",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-009",
+      "university": "Uniwersytet Komisji Edukacji Narodowej w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "najwiecej trudności to będzie z chemia",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-010",
+      "university": "Uniwersytet Komisji Edukacji Narodowej w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "z wielka czescia prowadzacych jest sie w stanie dogadac",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-011",
+      "university": "Uniwersytet Komisji Edukacji Narodowej w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "masz duzo swobody i zajec zdalnych",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-012",
+      "university": "Uniwersytet Komisji Edukacji Narodowej w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Studiowałem co prawda zwykła informatykę ale bioinf miała tych samych prowadzących z przedmiotów informatycznych i ogólnie rzecz ujmując dno wodorosty i kilogram mułu. Prowadzący w wieku emerytalnym z wykształcenia głównie fizycy, bez grama wiedzy technicznej, programowanie w takich językach jak C to standard, oczywiście na kartkach oraz wpajanie wszystkich najgorszych praktyk pisania kodu np 10 różnych zmiennych X o innym scopie… studia nastawione na duży odsiew - kończy mniej niż połowa a program jest nastawiony głównie na prehistoryczne technologie których nikt od dawna nie używa komercyjnie. Już o podejściu do studenta nie wspomnę bo tu gorzej niż w urzędzie skarbowym 😅 jak już ktoś tam trafi to radzę prędko uciekać 😇",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-013",
+      "university": "Uniwersytet Komisji Edukacji Narodowej w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Jestem teraz po pierwszym roku studiów i mogę stwierdzić, że na tym kierunku jest duży nacisk na przedmioty biologiczne i chemiczne, jeżeli chodzi o programowanie to trzeba się go uczyć na własną rękę, bo prowadzący z przedmiotów informatycznych nie są zbyt kompetentni w tej kwestii. Podejście prowadzących do studenta, jest bardzo w porządku, są luźni i zależy im żebyśmy zdali.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-014",
+      "university": "Uniwersytet Komisji Edukacji Narodowej w Krakowie",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "Ja to tam wytrzymałam tylko rok, bo miałam wrażenie że wszystkie przedmioty były zarezerwowane albo dla biologów albo dla informatyków, ale ten rok trudny do zdania nie był bo też za dużo od nas nie wymagano. Dostać też można się tam bardzo łatwo, bo w praktyce progi to tam nie istniały. Po roku nauki tam idąc na politechnikę (na biotechnologię co prawda więc zupełnie inny kierunek) musiałam zupełnie na nowo uczyć się matematyki, chemii i fizyki bo poziom tu i tam to przepaść Co prawda to też pierwszy rok więc siłą rzeczy człowiek za dużo nie wie Ale jednak studia te w pewnym sensie przypominały bajkoland i w Krakowie studenci uj wyśmiewają bioinformatyke na Ukenie.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-015",
+      "university": "Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie",
+      "degree": "Bioinformatyka i analiza danych",
+      "year": "2024",
+      "level": "",
+      "comment": "Pythona uczy jeden z najlepszych ludzi w Krakowie, wysoki poziom matmy, polecam",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-016",
+      "university": "Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie",
+      "degree": "Bioinformatyka i analiza danych",
+      "year": "2026",
+      "level": "",
+      "comment": "Moim zdaniem bioinformatyka i analiza danych na URK to naprawdę przyjemny kierunek. Ponieważ jest to kierunek inżynierski - mamy bardzo dużo zajęć praktycznych i labów co uważam za ogromy plus tego kierunku. Zajęcia są ciekawe i uczą wielu przydatnych umiejętności. Wszyscy prowadzący z którymi do tej pory miałam zajęcia byli bardzo pomocni, nie było przypadku żeby ktoś robił komuś problem z zaliczeniem zajęć. Wiekszość zajęć zaliczamy w trakcie trwania semestru, zdarzają się też terminy zerowe, więc w sesji nie ma aż takiego natłoku. Jeżeli chodzi o minusy to są to dojazdy na zajęcia. Ponieważ uczelnia ma wydziały w kilku dzielnicach, to praktycznie codziennie musimy dojeżdżać z wydziałów na Al. 29 Listopada na wydziały na ulicy Balickiej. Warto wziąć to pod uwagę przy wyborze akademika/mieszkania",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-017",
+      "university": "Politechnika Poznańska",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Łączony - każda uczelnia ciągnie w swoją stronę, polibuda mocno w informatykę a uniwerek biologia i bioinformatyka",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-018",
+      "university": "Politechnika Poznańska",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "studia dosyć ciężkie, trochę zapychaczy, jest parę osób które faktycznie chcą czegoś nauczyć, dużo informatyki, ale wychodzi się z (chyba) dobrymi podstawami",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-019",
+      "university": "Politechnika Poznańska",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "mysle ze na ten moment mogę je polecić, jest stosunkowo dobry rozkład przedmiotów bio i inf, fajne jest to ze laboratoria pozwalaja nam poznac kazda ze stron i stopniowo sie to potem laczy w całość. prowadzący sa w większości w porządku, bardzo ugodowi i przyjemni ludzie. wiadomo, są tez gorsze strony jak np. 3 semestr, gdzie pojawia się typowy przesiew i to na dwóch przedmiotach, ale tak to raczej większość jest do ogarnięcia. narzucają spore tempo, juz do 4 semestru trzeba ograniac w sumie c++, c#, R i pythona (plus taki ze niektórzy prowadzący ida z czasem i pozwala na korzystanie z ai jako narzedzia), tez startowo moze byc ciezko sie ogarnac ludziom z przeciwnych dziedzin, tj. ludzie po techniku informatyku szybko musza nadrobic chemie i biologię, biolchem ma w mojej opinii trochę łatwiej na start, za to obrywają mocniej od 2 w górę. takze uczelnia sama w sobie raczej daje rade, ale nie jest super latwo",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-020",
+      "university": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Kończę magisterkę na UAM w Poznaniu. Dużym plusem był koniec współpracy z Politechniką, nałożył się akurat na koniec licencjatu, dzięki czemu więcej osób zdecydowało się kontynuować studia w ogóle. Fakt, że byliśmy na drugim stopniu pierwszym rokiem, który szedł nowym programem, więc na nas trochę było to testowane, ale nadal sporo rzeczy mogłoby jednak działać lepiej. Mimo wszystko trafiali się super prowadzący, wiedza z części przedmiotów na pewno się przyda.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-021",
+      "university": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "też chyba bez większego problemu można już z poziomu licencjatu dorzucić się na jakiś przedmiot z magisterki, jeden kolega tak zrobił, bo raczej kontynuować nie będzie, a mu się przyda",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-022",
+      "university": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "minus jest taki, że z tylu zajęć komputerowych jakie mieliśmy, tylko na jednych było wszystko porządnie przygotowane, a nie musieliśmy instalować wszystko czy większość sami (pomijając, że jak już to się przeszło to często nie działało, ale to chyba norma w tym kierunku/zawodzie). trochę to jednak marnuje czas na zajęciach. chociaż zdarzało się, że prowadzący próbował przygotować i nie zdążył.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-023",
+      "university": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "ogólnie - ciężko mi polecić z czystym sumieniem, ale nie było też jakoś super najgorzej (zwłaszcza, że mieliśmy starostę, który miał gadane i dużo udało się załatwić jak potrzebowaliśmy)",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-024",
+      "university": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Generalnie kilka ciekawych przedmiotów, dużo praktyki, ale też tak jak na każdym innym kierunku znajdą się przedmioty „zapchaj dziurę”. Dużym błędem jest to, że niektóre przedmioty prowadzili nam typowo informatycy, przez co totalnie nie wiedzieli co może się nam przydać. Bardzo mało osób na kierunku, przez co nie dają nam praktycznie możliwości wyboru przedmiotów fakultatywnych. Generalnie takie 3/5.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-025",
+      "university": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "Duzym minusem jest brak kontynuacji nauki programowania w Python- jest przedmiot tylko przez 1 semestr, a potem koniec. Na kolejnych etapach są coraz trudniejsze zadania z programowania a prawie nikt nie ma dobrych podstaw. Co do części biologicznej: jest jej dużo i na dobrym poziomie, dużo jest też pracy w mokrym labie. Jest duży problem z zalatwieniem sobie praktyk- uczelnia nie pomoga też. Jest paru wykladowcow ktorym zalezy i się staraja i naprawde są dobrymi dydaktykami, reszta srednio. Czym jest prawdziwa bioinformatyka dopiero mozna dowiedziec sie na 2 roku w polowie. Generalnie 6/10.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-026",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2025",
+      "level": "",
+      "comment": "Co prawda uczęszczałam na te studia jedynie miesiąc (robiłam jednocześnie magisterkę z innego kierunku, przez co nie starczało mi czasu i wybrałam magisterkę), ale fakt, że mam za sobą już inne studia (skończyłam biotechnologię), to mam jakieś porównanie w kwestiach czysto organizacyjnych. Moim zdaniem jest bałagan w kwestii organizacyjnej i współczuję osobom, dla których jest to pierwszy i jedyny kierunek. W planie często nie były uwzględnione przerwy, przez co dzień z okresem stawał się koszmarem, a jeżeli trzeba było przechodzić pomiędzy budynkami, to cała grupa spóźniała się na zajęcia np 15 minut, przez co traciliśmy 150 minut zajęć przy 10 spotkaniach. Brak informacji, w jakiej sali będą zajęcia i czekanie na prowadzącego ponad 60 minut to coś, z czym nie spotkałam się na poprzednim kierunku. Na jedym przedmiocie prowadząch powiedział, że nie lubi zajęć, które prowadzi I czeka na zajęcia, które prowadzi o 18. Całe zajęcia 5 godzinne ja i reszta grupy przesiedzieliśmy nic nie robiąc, ponieważ komputery nie działały, prowadzącego to nie interesowało, a osoby z pomocy informatycznej powiedziały, że nie pomogą, bo nie mqją czasu podchodzić do każdego komputer osobno. Dramat. Niektóre zajęcia ciekawe, ale w porównaniu do poprzedniego kierunku, który studiowałam (biotech na UG), to widzę, że podejście dk studentów jest mniej przyjazne I są bardzo traktowani \"z góry\". Szkoda, bo wiele przedmiotów mogłoby dużo wnosić też dla osób, które chca skrecic w bioinfe po innym kierunku, ale majac juz jakies doswiadczenie ze studiowaniem takie traktowanie było dla mnie nie do udźwignięcia.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-027",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Co prawda nie studiowałam, ale prowadziłam zajęcia dla bioinformatyków (laboratorium komputerowe) i pomagałam w pisaniu prac licencjackich. Myślę, że zaangażowanie aż 4 wydziałów w prowadzenie tego kierunku pozwala na zobaczenie różnych perspektyw, w których można wykorzystać metody komputerowe. To może być naprawdę pomocne w wyborze dalszej ścieżki. Oczywiście, wiąże się to z dużą dezorganizacją, której doświadczają nie tylko studenci, ale też prowadzący. Jednak koniec końców, myślę, że zobaczenie przez 3 lata jak wiele możliwości i ścieżek rozwoju jest w bioinformatyce, jest naprawdę ważne. Sama wybierając się na studia chemiczne nie słyszałam o czymś takim jak chemoinformatyka, poznałam to dopiero na studiach i poszłam w ten temat dalej. I nie oczekiwałabym po 3 latach studiów wiedzy eksperckiej w każdej możliwej dziedzinie. Jednak po 3 latach można już zauważyć co sprawiało przyjemność, a o czym chce się tylko zapom",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-028",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Generalnie są niedociągnięcia, ale rada programowa reaguje i poprawia program studiów",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-029",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Duży chaos na kierunku w związku z zajęciami na 4 wydziałach",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-030",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "W tym co najbardziej mnie odrzuciło w tym kierunku to mało samej bioinformatyki w bioinformatyce - duży paradoks, I know.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-031",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Tzn. było bardzo mało przedmiotów spójnych, które łącza biologię i informatykę, a tym samych dużo oddzielnych, gdzie czasem ciężko samemu połączyć pewne dziedziny.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-032",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Uważam, ze za mało było przedmiotów informatycznych - analiza, narzędzia bioinformatyczne, machine learning itd. Natłok wiedzy biologicznej, która na aktualny czas, gdy jestem absolwentkom tego kierunku (rok temu skończyłam studia na tym kierunku) nie przydaje mi się w mojej dziedzinie.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-033",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Warto zaznaczyć, ze po moim ukończeniu zmienił się program studiów na tym kierunku, jednak z opinii, które słyszałam od aktualnych studentów, bądź prowadzących to nie wyglada to wcale lepiej.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-034",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Co ważne, zlikwidowane zostały zajęcia laboratoryjne (z tego co mi wiadomo) , które pozwalały czasem na wyobrażenie sobie i zobaczenie jak niektóre mechanizmy/metody biologiczne",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-035",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "(np. PCR) wyglada, co może bezpośrednio przełożyć się na analizę takich wyników za pomocą komputera na dużych zbiorach danych.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-036",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Wydaje mi się, że powinnien ten kierunek zostać jeszcze raz zrekonstruowany.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-037",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Dodatkowo, warto wspomnieć, że był od początku duży przeskok informatyczny tzn. według opisu kierunku można aplikować na studia bez wiedzy informatycznej lub biologicznej - co okazało się można powiedzieć nieprawda, gdyż prowadzący wymagali znajomosci (i to nawet w dość dobry stopniu) obu dziedzin.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-038",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Co mogę powiedzieć pozytywnego, ze na pewno zajęcia na 4 wydziałach pozwoliły zobaczyć perspektywę „4 światów” co uważam za niezwykle cenne. Jednak brak komunikacji między wydziałem macierzystym (MFiI) a reszta był na bardzo słabym poziomie.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-039",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Tak naprawdę po moim roku tylko jedna osoba zdecydowała się na kontynuacje bioinformatyki na II stopniu w innym mieście niż Gdańsk (w Gdańsku jedynie jest możliwości I stopnia), a reszta poszła raczej w kierunku stricte biologiczne lub chemiczne :)",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-040",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Od 3 lat zmieniony został program i uwazam, ze zmiana wyszła na plus. Ja akurat byłam rocznikiem, który na świeżo wszedł w te zmianę, ale nie uwazam ze była tragedia. Generalnie prowadzący byli mega kochani, pomocni, dobrze nas uczyli. Zajecia były przeplatane zarówno na wydziale MFI, Biologii, Chemii jak i Biotechnologii. Rada programowa zawsze wysłucha każdej uwagi dotyczącej prowadzącego/ przedmiotu i ZAWSZE reaguje. Czasem zdarzyło się, ze jakiś przedmiot był słabo prowadzony, ale tak jak wspomniałam byłam rocznikiem eksperymentalnym, po zmianie programu. Fakultetów jest sporo i każdy znajdzie coś dla siebie- czy bardziej informatycznego, czy biologicznego :)",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-041",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "Studia te (jak pewnie każde inne) mają swoje plusy i minusy. Plusem na pewno jest to, że są to studia, które pozwalają na zetknięcie się z wieloma różnymi dziedzinami: jest programowanie w pythonie, matematyka, biologia, chemia, bioinformatyka, ale też chemoinformatyka. Ten szeroki zakres pozwala na samodzielną decyzję, co naprawdę nas interesuje. Ja jestem z tych studiów zadowolona - od 4 semestru jest naprawdę dużo wolnego czasu i większość zajęć jest dosyć luźna, co pozwala na rozwijanie własnej ścieżki naukowej. Trzeba być jednak świadomym, że bez tego samorozwoju te studia kształcą takich trochę ekspertów od niczego - nikt nie stanie się po nich ekspertem z programowania, czy biotechnologii, dają one jednak solidny fundament, aby podjąć decyzję, co chcemy robić w życiu dalej i co naprawdę nas interesuje",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-042",
+      "university": "Uniwersytet Gdański",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "Po pierwszym roku mogę powiedzieć, że zaskoczyła mnie duża ilość matematyki. Niestety, jeśli chodzi o informatykę, nie uczą nas od podstaw- osoby, które wcześniej nie programowały, muszą nadrobić materiał we własnym zakresie. Mamy jednak koło naukowe „Kodon”, które obecnie bardzo dobrze działa i pomaga w zrozumieniu programowania. Ogólnie polecam ten kierunek- wykładowcy są w porządku i dobrze tłumaczą materiał. Jeśli chodzi o matematykę, warto uczyć się jej systematycznie, ponieważ w pierwszym semestrze zaliczyła ją tylko połowa studentów z całego roku.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-043",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2025",
+      "level": "",
+      "comment": "Statystyka i biologia na 1 stopniu super. Informatyki praktycznie nie ma. Bioinformatyki najwięcej nauczysz się u prowadzącego T.S. Dużo fakultetów, które nie są przydatne ani związane z kierunkiem, ale są fajne i śmieszne np. Zachowanie się zwierząt (wyjście do zoo) albo owady użytkowe (wyjście do ula). Nowa Pani dziekan jest świetna i bardzo dba o rozwój tego kierunku, więc jest szansa na to, że będzie lepiej.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-044",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Poziom niesamowicie niski, prowadzący przepuszczają prawie wszystkich",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-045",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Paru dobrych prowadzących w tym doktorantów, ale masa zbędnych przedmiotów",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-046",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Dezorganizacja i sylabus układany na kolanie",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-047",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Czuje się rozczarowana, wyboru fakultetów nie można nazwać wyborem",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-048",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Dramat poza zajęciami asynchronicznymi u dr Wójcika i zajęciami z dr Muchą, cała reszta to strata czasu",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-049",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "No to po pierwsze kadra, kilku prowadzących spoza uniwersytetu (na plus) żeby nauczyć nas przedmiotów do których nasi lokalni wykładowcy nie mieli kompetencji.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-050",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Duży nacisk na naukę tego czym zajmuje się theta, ale zajęcia prowadzone w mało ciekawy sposób. Trudno było coś z nich wynieść uniwersalnego jeśli nie chcemy zajmować się krowami.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-051",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Można odczuć pewne układziki, w obrębię grupy co wydaje się niesmaczne.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-052",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Była jedna prowadząca, która wyróżniała się na tle innych. Dobierała zagadnienia i starała się tworzyć przedmioty, które byłyby użyteczne na rynku pracy, można było sporo z nich wyciągnąć. Jeden prowadzący który załatwił nam sporo kursów na platformie i rozliczał z nauki ich.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-053",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Były też przedmioty trochę zbyt rozległe jak na nasz kierunek, albo bardzo z czapy (hodowla roślin z labami przez cały 5 semestr), ochrona zwierząt ex-situ (tam przynajmniej nauczyliśmy się jak uruchamiać amatorskie programy xd)",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-054",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Konkluzja - kadra niewystarczająca, w większej części gorsza niż lepsza.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-055",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Jeśli chodzi o komputery to teraz jest spoko dostęp do pracowni, wcześniej był żenująco zły. Ale i tak do projektów trzeba mieć własny komputer, bo studenci nie mają uprawnień do instalacji, a nie mają zapewnionego dostępu do innych środowisk pracy niż Google colaboratory",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-056",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Stanowczo zbyt mało nauki NGS, sporo statystyki, ale niestety poprowadzonej w nieprzystępny sposób.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-057",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Zbyt mały nacisk na algorytmikę, dużo projektów na łapu capu i robione na wyrost. Nadrabiałam w tym roku przedmiot licencjacki z podstaw informatyki i był absolutnie świetny. Szkoda, że na innych przedmiotach zapomina się o nacisku żeby zrobić program dobrze przemyślany od podstaw, a dorzuca się baaardzo kaleki frontend.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-058",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Dziekanat nad wyraz spoko",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-059",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Pierwszy rok jak Pierwszy rok, masa przedmiotów ogólnie związanych z biologią, chemią no i matematyką która mogła sprawiać największe problemu. Później zrobiło się tylko ciekawiej. Pierwsze zajęcia z programowania z dr. Jałowickim dobrze otwierają głowę ma algorytmy. Bazy danych mieliśmy przerobione po łepkach nad czym ubolewam. Zajęcia z biologi/genetyki były na wysokim poziomie, bardzo podobnie że statystyką. Brakowało mi trochę więcej niż jednego przedmiotu na ogarnięcie narzędzi bioinf w bashu. Całość była omówiona w jeden semestr po 2h tygodniowo. Z wad to oczywiście bardzo słaby wybór fakultetów albo brak wyboru przez co każdy kończył na zajęciach gdzie uczyliśmy się jak pobierać próbki wody z akwenów co nijak nie przyda nam się w przyszłej pracy. Ogólnie ten 1 etap minął mi dobrze, mam wrażenie jednak, że nie zdobyłem za dużo konkretnej, ukierunkowanej wiedzy z programowania.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-060",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Organizacja -> upwr nie wie co to",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-061",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Sylabus -> na bioinfie nauczysz się http://m.in/ jak przechodzi rozród u kury lub jak łowić ryby Programowania trzeba nauczyć się samemu w domu",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-062",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "(pytano nas czy chcemy fakultety z statystyki lub bardziej informatyczne, po czym usunięto te co były i teraz są jedynie biologiczne, fakultetów informatycznych doczekamy się dopiero na ostatnim semestrze inżynierki)",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-063",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Prowadzący -> jedni są niekompetentni, drudzy wybierają sobie faworytów, kolejni mówią jedno i robią drugie, inni prowadzą swoje przedmioty na tkzw „odwal”. Będąc na drugim roku spotkałam tylko 2 prowadzących naprawdę potrafiących nauczać i sprawiedliwie traktujących studentów",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-064",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Poziom nauczania -> przedmioty związane z statystyką i analizą danych na wysokim poziomie, nie da się przejść dalej bez ich ogarnięcia. Jak ktoś jest na tym kierunku bardziej dla INF to może go denerwować nacisk kładziony na przedmioty biologiczne, które w większości są dość słabo nauczane.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-065",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Erasmus -> bardzo słabe oferty, albo do Portugalii z językiem portugalskim, albo Belgia tylko dla magisterki (to samo od m.in dwóch lat)",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-066",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2024",
+      "level": "",
+      "comment": "Biuro karier -> to akurat działa super, przemiłe panie",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-067",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "moja opinia ogólnie niezbyt pozytywna, nie poleciłabym tej uczelni przyszłym studentom, dla mnie poziom zajęć, czy ogólnie ich prowadzenie nie były dla mnie nigdy na wystarczającym poziomie. oczywiście nie wszytskie, bo są pojedynczy prowadzący, który są naprawdę dobrze w tym co robią. ale no taka ogólna moja opinia, nie jest za bardzo pozytywna. sam fakt tego, że żyjemy w niewiedzy, czy przypadkiem nie zamkną tam kierunku :((",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-068",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "ja osobiście bardzo polecam ten kierunek dla osób które nie są w 100% pewne w którą stronę biologiczną chcą iść. Nauczysz się tam naprawdę solidnych podstaw zarówno genetyki, statystyki jak i informatyki z którymi można się wyspecjalizować w wielu ciekawych kierunkach po tych studiach. Plus jeśli ktoś faktycznie będzie chciał prowadzić jakiekolwiek biologiczne badania naukowe w przyszłości to te studia są również bardzo pomocne",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-069",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "Kierunek jest dość archaiczny, mało jest informatyki. Za dużo R, za mało Pythona. Dużo liczenia na kartkach. Bardziej biostatystyka niż bioinformatyka",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-070",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "Z mojej perspektywy wybór bioinformatyki był dobry, w lutym obroniłam inżyniera. Od trzeciego roku studiów pracuję jako analityk danych, więc jeżeli bioinf komuś nie spasuje, jest dużo alternatywnych opcji. Co do samej uczelni to kadra jest dość różna, niektórzy wykładali z pasji, a inni tylko żeby coś powiedzieć i wyjść. Z tego co wiem, to teraz są jeszcze jacyś nowi wykładowcy, więc może jest lepiej. Na studiach pierwszego stopnia jest dużo przedmiotów niepotrzebnych w mojej opinii np. zoologia czy botanika. Fakultety, które powinny być różnorodne dla mojego roku były bardzo podobne i niekiedy bezsensowne typu rozród kur. Jak dla mnie te 3,5 roku było rozwijające, aczkolwiek dużo się uczyłam sama pod analizę danych, sama wiedza ze studiów byłaby niewystarczająca.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-071",
+      "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "Ogólnie jestem zadowolona z wyboru kierunku studiów. Jest to ciekawe połączenie różnych dziedzin, które daje wiele możliwości. Co do UPWr, myślę, ze jest w porządku, chociaż organizacja wszystkiego mogłaby być znacznie lepsza. Uważam też, że przedmioty związane z programowaniem mogłyby być prowadzone trochę lepiej. Wcześniej za bardzo nie miałam styczności z programowaniem i z Linuxem, więc początki wymagały sporo pracy własnej. Podsumowując polecam UPWr, bo można się sporo nauczyć, ale trzeba samemu się zmobilizować żeby czasami usiąść na kilka/kilkanaście godzin i ogarnąć jakiś nowy temat. Chociaż myślę, że tak jest akurat ze wszystkim związanym z nauką i nigdy wszyscy wykładowcy nie będą komuś pasować w 100%.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-072",
+      "university": "Uniwersytet Przyrodniczy w Lublinie",
+      "degree": "Bioinformatyka w biogospodarce",
+      "year": "2026",
+      "level": "",
+      "comment": "Uważam że UPwL jako uczelnia sama w sobie jest naprawdę bardzo fajna. Jest dużo możliwości rozwoju i działania poza zajęciami, angażujące koła naukowe. Bioinformatyka tutaj mam wrażenie, że na początku trochę bardziej skupia się na aspektach biologicznych i podstawach programowania, a jakieś poważniejsze informatyczne przedmioty dochodzą później. Mamy bardzo mało osób na roku, co pozwala na bliższy kontakt z prowadzącymi i lepsze zrozumienie przedmiotów, niż przy dużej grupie. Na plus są też zdecydowanie prowadzący, są super wyrozumiali, jak ktoś ma z czymś problem to chętnie pomagają w pełnym zrozumieniu materiału. Najwięcej czasu i wysiłku zabiera matematyka, ale da się przez to przebrnąć 😅 jako osoba, która styczność z informatyką miała znikomą uważam, że jak najbardziej można się rzucić na głęboką wodę i wszystkiego tu się nauczyć od podstaw ❤️ lepiej trafić nie mogłam 🤭",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-073",
+      "university": "Uniwersytet Przyrodniczy w Lublinie",
+      "degree": "Bioinformatyka w biogospodarce",
+      "year": "2024",
+      "level": "",
+      "comment": "up Lublin dopiero od października otwiera ten kierunek, ale znając uczelnie to nie polecam. Plus wątpię, że będą mieli ogarnięta kadrę do nauki przedmiotów informatycznych.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-074",
+      "university": "Uniwersytet Przyrodniczy w Lublinie",
+      "degree": "Bioinformatyka w biogospodarce",
+      "year": "2026",
+      "level": "",
+      "comment": "to uczelnie mogę jak najbardziej polecić. Prowadzący zajęcia to super ludzie, z nikim nie ma problemów, zawsze można się dogadać i zajęcia prowadzone są dość ciekawe. Jeżeli chodzi o przedmioty w więkoszości mamy przedmioty audytoryjne, dopiero w tym semestrze mieliśmy pierwsze laby z biochemii. Warto też dodać ze dla osób po biol-chemie matma i przedmioty informatyczne na początku będa ciężarem ale jakoś dajemy rade.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-075",
+      "university": "Uniwersytet Warszawski",
+      "degree": "Zastosowania fizyki w biologii i medycynie – specjalność projektowanie molekularne i bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "napewno na tych studiach dużo się nauczyłam - zarówno tych teoretycznych jak i praktycznych rzeczy. wiadomo, jest kilka przedmiotów w których warto byłoby zmienić nieco program nauczania ale kierunek jest dość nowy więc wierzę, że to wszystko jeszcze sie ułoży hahah. muszę też przyznać że było dość ciężko jeśli chodzi o nauke i ilość materiału ale warto też zaznaczyć że jestem po mat geo i nigdy nie miałam styczności z informatyką przed studiami. musiałam naprawde dużo dużo nadrobić i tempo było bardzo szybkie szczególnie na pierwszym roku, ale ostatecznie udało mi się uzupełnić wiedzę i załapać ten studencki tryb nauki.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-076",
+      "university": "Politechnika Wrocławska",
+      "degree": "Biosciences (II stopień)",
+      "year": "2025",
+      "level": "II stopień",
+      "comment": "Fajnie, bo na studiach 2 stopnia bioinformatyka zaczyna się od podstaw. To jest plusem dla tych, którzy dopiero chcą w nią wejść w temat w ramach specjalizacji np po biotechnologii. Duży nacisk na modelowanie molekularne, symulacje dynamiki molekularnej oraz biologie obliczeniową. Podobno nowe roczniki będą miały przedmiot z ML, ale ja jestem z poprzedniego cyklu :) Szkoda, że nie było więcej o sekwencjonowaniu i danych omicznych.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-077",
+      "university": "Politechnika Wrocławska",
+      "degree": "Biosciences (II stopień)",
+      "year": "2025",
+      "level": "II stopień",
+      "comment": "Trzeba się dużo uczyć. Nie każdy na mgr chce tyle czasu poświęcić na studiowanie (rozumiem to, bo często doświadczenie w przemyśle może przynieść więcej korzyści - okryłam to dopiero w połowie tych studiów). Rynek też jest bardziej zainteresowany ludźmi MLowymi i omicznymi, więc wiedzę z tego zakresu trzeba zbierać samemu.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-078",
+      "university": "Uniwersytet Warszawski",
+      "degree": "Zastosowania fizyki w biologii i medycynie – specjalność projektowanie molekularne i bioinformatyka",
+      "year": "2026",
+      "level": "II stopień",
+      "comment": "Akurat przez to, że moje studia były na wydziale fizyki, mieliśmy jej w mojej ocenie więcej niż byłoby to konieczne do podstawowego zrozumienia zagadnień okolobiologicznych i jednocześnie za mało do wyrobienia intuicji w zgadaniach takich jak fizyka statystyczna i termodynamika. Mieliśmy też duże problemy bo kurs omawiający pracę z terminalem był wrzucony po 2 semestrach programowania. Moja specjalizacja była skupiona na biologii obliczeniowej, a nie na genomice, ale myśle, ze mogłoby to być dobre uzupełnienie. Bylo kilka bardzo interesujących przedmiotów jak np. Projektowanie leków czy podstawy medycyny molekularnej, ale były one obieralne.Po skończeniu studiów mam mieszane uczucia, myślę że standardowa bioinformatyka na wydziale matematyki mogłaby być lepszym wyborem.",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-079",
+      "university": "PJATK",
+      "degree": "Bioinformatyka – studia podyplomowe",
+      "year": "2026",
+      "level": "studia podyplomowe",
+      "comment": "Mi się bardzo podobalo, twój przedmiot z machine learning bardzo spoko. Ale bardzo dużo czasu trzeba w to włożyć i często jest dość ciężko dowieźć wszystko na czas! Mimo wszystko wydaje mi się ze cieżko się tak przebranżowić jedynie po tych studiach. Dobry bardzo intensywny start",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-080",
+      "university": "PJATK",
+      "degree": "Bioinformatyka – studia podyplomowe",
+      "year": "2026",
+      "level": "studia podyplomowe",
+      "comment": "z perspektywy osoby doświadczonej w IT i po studiach z inżynierii biomedycznej/informatyki to te studia podyplomowe na PJATK były w sumie chyba jedyną opcją w Polsce, gdzie można było zgłębić tematykę full online bez konieczności zabaw w laboratorium (byłbym chętny, ale no czasy zabiegane i byłoby to trochę problematyczne), dużo podstaw programowania, co prawda dobre, solidne podstawy, z których się teraz korzysta w codziennej pracy, więc dla nowicjuszy program jest mega przemyślany, z bio mam wrażenie że było trochę mniej wstępów (może tylko ci ze strony inf mieli takie wrażenie) i ogólnie taką np biochemię trzeba było sobie przypomnieć we własnym zakresie. Co do samych bioinformatycznych tematów to zajęcia poprowadzone już w uporządkowany sposób, osoba która się zaprze, do tego skorzysta z dodatkowych narzędzi/literatury/AI, może otworzyć bramy zarówno z biologii do IT, jak i z IT do biologii, ale tutaj potrzeba będzie jednak więcej pracy plus może trochę szczęścia na rynku",
+      "source": "opinia od studentów i absolwentów"
+    },
+    {
+      "id": "tsv-081",
+      "university": "ATINS Wrocław",
+      "degree": "Bioinformatyka",
+      "year": "2026",
+      "level": "",
+      "comment": "niestety nie mogę powiedzieć, że polecam. Poza kilkoma spoko przedmiotami poziom nauczania był raczej słaby i nie wyniosłam stamtąd zbyt wiele. Często zmieniająca się kadra wykładowców, prowadzący znajdowani na ostatnią chwilę, nierzadko bez odpowiedniego przygotowania do prowadzenia danych przedmiotów. Problemem był również brak sylabusów albo bardzo utrudniony dostęp do nich; zdarzało się, że sami wykładowcy nie znali dokładnego zakresu materiału i wymagań. Trzeba było też pilnować własnych dokumentów, ponieważ różne rzeczy potrafiły się gubić. Oczywiście było kilka dobrze prowadzonych przedmiotów, ale przy tak dużej rotacji pracowników trudno powiedzieć, czy w kolejnych latach będą prowadzone równie dobrze.",
+      "source": "opinia od studentów i absolwentów"
+    }
+  ]
+}
