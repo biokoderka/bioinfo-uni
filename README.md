@@ -1,6 +1,6 @@
 # Bioinformatyka w Polsce 🧬
 
-Statyczna strona GitHub Pages z wyszukiwarką kierunków bioinformatycznych w Polsce oraz opiniami studentów i absolwentów.
+Statyczna strona GitHub Pages z wyszukiwarką kierunków bioinformatycznych w Polsce oraz opiniami studentów i absolwentów. 
 
 👉 **[biokoderka.github.io/bioinfo-uni](https://biokoderka.github.io/bioinfo-uni)**
 
