@@ -746,6 +746,33 @@
       "level": "II stopień",
       "comment": "Bardzo fajna opcja po pierwszym stopniu na UPWr. Na początku uderzają braki z biologii molekularnej, której jest tam duuuuużo, ale spokojnie do ogarnięcia.\nUJ ma bardziej badawcze podejście niż UPWr — jak ktoś w przyszłości planuje doktorat to opcja idealna, bardzo łatwo stworzyć tu fajną siatkę kontaktów.\nPierwszy rok bardzo intensywny (mam nadzieję, że potem jest luźniej 🧎‍♀️‍➡️). Bardzo duża oferta kursów do wyboru, więc każdy znajdzie coś dla siebie. Oprócz przedmiotów obowiązkowych można żonglować fakultetami z innych kierunków czy nawet wydziałów — trzeba wyrobić 60 ECTS na rok akademicki i od nas zależy ile i jak je wyrobimy w danym semestrze.\nJestem prawie w połowie tych studiów i jak na razie nie żałuję wyboru ☺️",
       "source": "opinia od studentów i absolwentów"
-    }
+    },
+  {
+    "id": "tsv-084",
+    "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+    "degree": "Bioinformatyka",
+    "year": "2026",
+    "level": "",
+    "comment": "Organizacja średnia, ale dziekanat działa bardzo dobrze. Dużym plusem są statystyka i R. Minusem jest duża liczba przedmiotów niezwiązanych bezpośrednio z bioinformatyką i analizą danych, choć podobno program ma być modernizowany. Programowanie obejmuje głównie R, w mniejszym stopniu Python. Pojawiają się Bash, analizy NGS, RNA-seq i Nextflow. Git dostępny jest dopiero na drugim stopniu, SQL obejmuje podstawy, natomiast Snakemake nie jest nauczany. Ogólnie polecam kierunek i jestem zadowolona z wyboru uczelni.",
+    "source": "opinia od studentów i absolwentów"
+  },
+  {
+    "id": "tsv-085",
+    "university": "Uniwersytet Przyrodniczy w Lublinie",
+    "degree": "Bioinformatyka w biogospodarce",
+    "year": "2026",
+    "level": "",
+    "comment": "Od roku akademickiego 2026/2027 kierunek realizowany jest w formule hybrydowej. Wykłady i ćwiczenia audytoryjne odbywają się zdalnie, natomiast ćwiczenia laboratoryjne prowadzone są stacjonarnie.",
+    "source": "opinia od osoby prowadzącej zajęcia"
+  },
+  {
+    "id": "tsv-086",
+    "university": "PJATK",
+    "degree": "Bioinformatyka – studia podyplomowe",
+    "year": "2026",
+    "level": "studia podyplomowe",
+    "comment": "Ukończyłem tę podyplomówkę jako przedstawiciel drugiego rocznika i jestem bardzo zadowolony. Wszystkie zajęcia realizowane są na platformie e-learningowej, a w razie potrzeby dostępne są konsultacje z tutorami. Program zapewnia solidne podstawy programowania w Pythonie i SQL. Szczególnie wartościowy okazał się przedmiot poświęcony analizie danych NGS.",
+    "source": "opinia od studentów i absolwentów"
+  }
   ]
 }
