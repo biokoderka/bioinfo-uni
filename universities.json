@@ -1,6 +1,21 @@
 {
   "universities": [
     {
+  "Uczelnia": "Uniwersytet Medyczny w Białymstoku",
+  "Pełny tytuł kierunku": "Bioinformatyka Medyczna",
+  "Rok oferty": "2026/2027",
+  "Czas trwania": "3 lata",
+  "Tytuł po ukończeniu": "licencjat",
+  "Wymagane przedmioty maturalne / rekrutacja": "biologia lub chemia lub matematyka lub fizyka lub informatyka (PR lub PP); dodatkowe kryterium: język obcy nowożytny PP",
+  "Czy jest II stopień na tej samej uczelni?": "Brak – nowy kierunek, II stopień planowany",
+  "Link do spisu przedmiotów": "https://www.umb.edu.pl/wl/bioinformatyka-medyczna/informacje_dla_studentow",
+  "Link do planu zajęć": "",
+  "Link do pełnej oferty": "https://www.umb.edu.pl/najnowsze_komunikaty/32644,Kolejna_nowosc_w_ofercie_UMB-_Bioinformatyka_Medyczna",
+  "id": "uniwersytet-medyczny-w-bialymstoku-bioinformatyka-medyczna",
+  "Typ oferty": "I stopień",
+  "Miasto": "Białystok"
+},
+    {
       "Uczelnia": "Uniwersytet Jagielloński w Krakowie",
       "Pełny tytuł kierunku": "Bioinformatyka",
       "Rok oferty": "2026/2027",
