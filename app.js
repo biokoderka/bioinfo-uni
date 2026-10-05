@@ -1,12 +1,139 @@
-const $=s=>document.querySelector(s);let universities=[],reviews=[];
-function esc(s){return String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
-function isSecond(v){return String(v||'').toLowerCase().startsWith('tak')}
-function link(url,label){return url?`<a class="btn" target="_blank" rel="noopener" href="${esc(url)}">${label}</a>`:''}
-function norm(s){return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim()}
-function aliasesFor(u){let aliases=[u.Uczelnia,u.id];const n=norm(u.Uczelnia+' '+(u['Pełny tytuł kierunku']||''));if(n.includes('atins')||n.includes('wyzsza szkola informatyki'))aliases.push('ATINS Wrocław','Atins Wrocław','Wrocławska Wyższa Szkoła Informatyki Stosowanej / ATINS','Wrocławska Wyższa Szkoła Informatyki Stosowanej');if(n.includes('pjatk')||n.includes('polsko japonska'))aliases.push('Podyplomowe PJATK','PJATK','Polsko-Japońska Akademia Technik Komputerowych');if(n.includes('politechnika wroclawska'))aliases.push('Politechnika Wrocławska (II stopień)');return aliases.map(norm)}
-function reviewsFor(u){const aliases=aliasesFor(u);return reviews.filter(r=>{const rn=norm(r.university);const dn=norm(r.degree);return aliases.includes(rn)||aliases.some(a=>a&&(rn.includes(a)||a.includes(rn)))||(norm(u.Uczelnia).includes('uniwersytet warszawski')&&rn.startsWith('uniwersytet warszawski'))||(aliases.includes('pjatk')&&(rn.includes('pjatk')||dn.includes('podyplomowe')))}).sort((a,b)=>String(b.year||'2024').localeCompare(String(a.year||'2024')))}
-function renderStats(){const second=universities.filter(x=>isSecond(x['Czy jest II stopień na tej samej uczelni?'])).length;const cities=new Set(universities.map(u=>u.Miasto).filter(Boolean)).size;$('#top').innerHTML=`<div class="panel stat"><b>${universities.length}</b><small>uczelni w bazie</small></div><div class="panel stat"><b>${reviews.length}</b><small>opinii</small></div><div class="panel stat"><b>${cities}</b><small>miast</small></div>`}
-function render(){const q=$('#q').value.toLowerCase().trim(),typ=$('#type').value.toLowerCase(),sec=$('#second').value,sort=$('#sort').value;let list=universities.map(u=>({...u,_reviews:reviewsFor(u)})).filter(u=>{const text=JSON.stringify(u).toLowerCase()+' '+u._reviews.map(r=>r.comment).join(' ').toLowerCase();if(q&&!text.includes(q))return false;if(typ&&String(u['Typ oferty']).toLowerCase()!==typ)return false;if(sec==='tak'&&!isSecond(u['Czy jest II stopień na tej samej uczelni?']))return false;if(sec==='nie'&&isSecond(u['Czy jest II stopień na tej samej uczelni?']))return false;return true});list.sort((a,b)=>sort==='name'?a.Uczelnia.localeCompare(b.Uczelnia,'pl'):b._reviews.length-a._reviews.length);$('#cards').innerHTML=list.length?list.map(card).join(''):'<div class="panel empty">Brak wyników dla tych filtrów.</div>';document.querySelectorAll('[data-toggle]').forEach(btn=>btn.onclick=()=>{const el=document.getElementById(btn.dataset.toggle);el.style.display=el.style.display==='block'?'none':'block'})}
-function typClass(t){const s=String(t||'').toLowerCase();if(s.startsWith('i stopień')||s==='i stopień')return 'pill-i';if(s.startsWith('ii stopień'))return 'pill-ii';if(s.includes('podyplomowe'))return 'pill-podyp';return '';}
-function card(u){const rs=u._reviews,id='d-'+u.id;const secondVal=u['Czy jest II stopień na tej samej uczelni?']||'—';const secondClass=isSecond(secondVal)?'good':'warn';return `<article class="card"><h2>${esc(u.Uczelnia)}</h2><div class="small"><b>${esc(u['Pełny tytuł kierunku']||'—')}</b> · oferta: ${esc(u['Rok oferty']||'—')}</div><div class="meta"><span class="pill ${typClass(u['Typ oferty'])}">${esc(u['Typ oferty']||'—')}</span><span class="pill">${esc(u['Tytuł po ukończeniu']||'—')}</span><span class="pill">${esc(u['Czas trwania']||'—')}</span><span class="pill ${secondClass}">II stopień: ${esc(secondVal)}</span><span class="pill">opinii: ${rs.length}</span></div><p class="small"><b>Rekrutacja:</b> ${esc(u['Wymagane przedmioty maturalne / rekrutacja']||'—')}</p><div class="links">${link(u['Link do pełnej oferty'],'Oferta')}${link(u['Link do spisu przedmiotów'],'Spis przedmiotów')}${link(u['Link do planu zajęć'],'Plan zajęć')}<button data-toggle="${id}">Szczegóły i opinie</button></div><div class="details" id="${id}"><table><tr><th>Miasto</th><td>${esc(u.Miasto||'—')}</td></tr><tr><th>Typ oferty</th><td>${esc(u['Typ oferty']||'—')}</td></tr><tr><th>Czas trwania</th><td>${esc(u['Czas trwania']||'—')}</td></tr><tr><th>Tytuł po ukończeniu</th><td>${esc(u['Tytuł po ukończeniu']||'—')}</td></tr><tr><th>II stopień na tej samej uczelni</th><td>${esc(secondVal)}</td></tr><tr><th>Rekrutacja</th><td>${esc(u['Wymagane przedmioty maturalne / rekrutacja']||'—')}</td></tr></table><div class="notice"><strong>Uwaga:</strong> opinie są subiektywne i nie są oficjalnym stanowiskiem uczelni.</div>${rs.length?rs.map(r=>`<div class="review"><span class="pill">${esc(r.year||'2024')}</span>${r.level?' <span class="small">· '+esc(r.level)+'</span>':''}<p>${esc(r.comment)}</p></div>`).join(''):'<p class="small">Brak opinii — dodaj pierwszą.</p>'}</div></article>`}
-async function init(){const [u,r]=await Promise.all([fetch('universities.json?v=8').then(x=>x.json()),fetch('reviews.json?v=8').then(x=>x.json())]);universities=u.universities||[];reviews=r.reviews||[];renderStats();render();['q','type','second','sort'].forEach(id=>$('#'+id).addEventListener('input',render))}init().catch(e=>{$('#cards').innerHTML='<div class="panel empty">Nie udało się wczytać danych. Uruchom przez GitHub Pages albo lokalny serwer.</div>';console.error(e)});
+// BioInfoUni — wyszukiwarka kierunków + opinie
+// Dane: universities.json (programs → offers per stopień), reviews.json (review.program = program.id)
+
+const $ = s => document.querySelector(s);
+let programs = [], reviews = [];
+
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[m]));
+}
+function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : null; }
+function norm(s) {
+  return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ł/g, 'l');
+}
+
+const LEVEL_CLASS = { 'I stopień': 'pill-i', 'II stopień': 'pill-ii', 'II stopień – specjalność': 'pill-ii', 'studia podyplomowe': 'pill-podyp' };
+const levelGroup = l => l.startsWith('II') ? 'II' : l.startsWith('I') ? 'I' : 'podyplomowe';
+const levelShort = l => ({ 'I stopień': 'I st.', 'II stopień': 'II st.', 'II stopień – specjalność': 'II st. (specjalność)', 'studia podyplomowe': 'podyplomowe' }[l] || l);
+
+function hasPath(p) {  // I i II stopień tego samego kierunku na tej samej uczelni
+  const g = p.offers.map(o => levelGroup(o.level));
+  return g.includes('I') && g.includes('II');
+}
+
+function link(url, label) {
+  const u = safeUrl(url);
+  return u ? `<a class="btn" target="_blank" rel="noopener" href="${esc(u)}">${label}</a>` : '';
+}
+
+function renderStats() {
+  const offers = programs.reduce((n, p) => n + p.offers.length, 0);
+  const unis = new Set(programs.map(p => p.university)).size;
+  const cities = new Set(programs.map(p => p.city)).size;
+  $('#top').innerHTML =
+    `<div class="panel stat"><b>${offers}</b><small>programów studiów</small></div>` +
+    `<div class="panel stat"><b>${unis}</b><small>uczelni · ${cities} miast</small></div>` +
+    `<div class="panel stat"><b>${reviews.length}</b><small>opinii</small></div>`;
+}
+
+function fillCityFilter() {
+  const cities = [...new Set(programs.map(p => p.city))].sort((a, b) => a.localeCompare(b, 'pl'));
+  $('#city').innerHTML = '<option value="">Wszystkie miasta</option>' + cities.map(c => `<option>${esc(c)}</option>`).join('');
+}
+
+function offerBlock(o) {
+  const rows = [
+    ['Czas trwania', o.duration], ['Tytuł', o.degree], ['Rekrutacja', o.admission], ['Oferta na rok', o.year], ['Uwagi', o.note],
+  ].filter(([, v]) => v);
+  return `<div class="offer">
+    <div class="offer-head"><span class="pill ${LEVEL_CLASS[o.level] || ''}">${esc(o.level)}</span></div>
+    <table>${rows.map(([k, v]) => `<tr><th>${k}</th><td>${esc(v)}</td></tr>`).join('')}</table>
+    <div class="links">${link(o.url, 'Oferta')}${link(o.curriculum_url, 'Program / przedmioty')}${link(o.schedule_url, 'Plan zajęć')}</div>
+  </div>`;
+}
+
+function reviewBlock(r) {
+  const meta = [r.year, r.level ? levelShort(r.level) : null,
+    r.source && !r.source.includes('studentów') ? r.source.replace(/^opinia od /, '') : null].filter(Boolean);
+  return `<div class="review">${meta.map(m => `<span class="pill">${esc(m)}</span>`).join(' ')}<p>${esc(r.comment)}</p></div>`;
+}
+
+function card(p) {
+  const rs = p._reviews;
+  const id = 'd-' + p.id;
+  const levels = p.offers.map(o =>
+    `<span class="pill ${LEVEL_CLASS[o.level] || ''}">${esc(levelShort(o.level))} · ${esc(o.degree || '')}${o.duration ? ' · ' + esc(o.duration) : ''}</span>`).join('');
+  const shared = p.offers.length > 1 && rs.length
+    ? '<p class="hint">Opinie dotyczą kierunku na tej uczelni — przy każdej widać stopień, jeśli autor go podał.</p>' : '';
+  return `<article class="card" id="${esc(p.id)}">
+    <h2>${esc(p.university)}${p.faculty ? ` <span class="faculty">${esc(p.faculty)}</span>` : ''}</h2>
+    <div class="small"><b>${esc(p.name)}</b> · ${esc(p.city)}</div>
+    <div class="meta">${levels}<span class="pill">opinii: ${rs.length}</span>${hasPath(p) ? '<span class="pill good">I + II stopień na miejscu</span>' : ''}</div>
+    ${p.note ? `<p class="small">${esc(p.note)}</p>` : ''}
+    <div class="links"><button data-toggle="${id}">Szczegóły${rs.length ? ' i opinie' : ''}</button>
+      <a class="btn" href="submit.html?program=${encodeURIComponent(p.id)}">✦ Dodaj opinię</a></div>
+    <div class="details" id="${id}">
+      ${p.offers.map(offerBlock).join('')}
+      <h3 class="reviews-title">Opinie (${rs.length})</h3>
+      ${rs.length ? '<div class="notice"><strong>Uwaga:</strong> opinie są anonimowe, subiektywne i nie są oficjalnym stanowiskiem uczelni.</div>' + shared + rs.map(reviewBlock).join('')
+                  : '<p class="small">Brak opinii — <a href="submit.html?program=' + encodeURIComponent(p.id) + '">dodaj pierwszą</a>.</p>'}
+    </div>
+  </article>`;
+}
+
+function render() {
+  const q = norm($('#q').value.trim());
+  const lvl = $('#type').value, city = $('#city').value, path = $('#path').checked, sort = $('#sort').value;
+  let list = programs.filter(p => {
+    if (lvl && !p.offers.some(o => levelGroup(o.level) === lvl)) return false;
+    if (city && p.city !== city) return false;
+    if (path && !hasPath(p)) return false;
+    if (q && !p._search.includes(q)) return false;
+    return true;
+  });
+  list.sort((a, b) =>
+    sort === 'name' ? a.university.localeCompare(b.university, 'pl') :
+    sort === 'city' ? a.city.localeCompare(b.city, 'pl') || a.university.localeCompare(b.university, 'pl') :
+    b._reviews.length - a._reviews.length || a.university.localeCompare(b.university, 'pl'));
+  $('#count').textContent = `${list.length} z ${programs.length} kierunków`;
+  $('#cards').innerHTML = list.length ? list.map(card).join('') : '<div class="panel empty">Brak wyników dla tych filtrów.</div>';
+  document.querySelectorAll('[data-toggle]').forEach(btn => btn.onclick = () => {
+    const el = document.getElementById(btn.dataset.toggle);
+    el.style.display = el.style.display === 'block' ? 'none' : 'block';
+  });
+}
+
+function openFromHash() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  if (!id) return;
+  const cardEl = document.getElementById(id);
+  const det = document.getElementById('d-' + id);
+  if (cardEl && det) { det.style.display = 'block'; cardEl.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+}
+
+async function init() {
+  const [u, r] = await Promise.all([
+    fetch('universities.json?v=9').then(x => x.json()),
+    fetch('reviews.json?v=9').then(x => x.json()),
+  ]);
+  programs = u.programs || [];
+  reviews = r.reviews || [];
+  const byProgram = {};
+  reviews.forEach(rv => (byProgram[rv.program] ||= []).push(rv));
+  programs.forEach(p => {
+    p._reviews = (byProgram[p.id] || []).sort((a, b) => String(b.year || '').localeCompare(String(a.year || '')));
+    p._search = norm([p.university, p.short, p.faculty, p.name, p.city,
+      ...p.offers.flatMap(o => [o.level, o.degree, o.admission]), ...p._reviews.map(x => x.comment)].join(' '));
+  });
+  renderStats();
+  fillCityFilter();
+  render();
+  ['q', 'type', 'city', 'path', 'sort'].forEach(id => $('#' + id).addEventListener('input', render));
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
+}
+
+init().catch(e => {
+  $('#cards').innerHTML = '<div class="panel empty">Nie udało się wczytać danych — odśwież stronę.</div>';
+  console.error(e);
+});

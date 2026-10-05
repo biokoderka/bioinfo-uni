@@ -1,46 +1,67 @@
-# Bioinformatyka w Polsce 🧬
+# BioInfoUni 🎓
 
-Statyczna strona GitHub Pages z wyszukiwarką kierunków bioinformatycznych w Polsce oraz opiniami studentów i absolwentów. 
+Wyszukiwarka studiów bioinformatycznych w Polsce — I i II stopień oraz studia podyplomowe — z danymi rekrutacyjnymi, linkami do programów i planów zajęć oraz anonimowymi opiniami studentów i absolwentów.
 
-👉 **[biokoderka.github.io/bioinfo-uni](https://biokoderka.github.io/bioinfo-uni)**
+👉 **[biokoderka.github.io/bioinfo-uni](https://biokoderka.github.io/bioinfo-uni)** · część [BioinfoSites](https://biokoderka.github.io/bioinfosites/)
 
----
-
-## Co znajdziesz na stronie
-
-- podstawowe dane rekrutacyjne dla każdego kierunku (typ studiów, czas trwania, tytuł, wymagania)
-- informacje czy uczelnia oferuje również II stopień
-- linki do oferty, spisu przedmiotów i planu zajęć
-- opinie studentów i absolwentów
-- wyszukiwarka i filtry (typ studiów, II stopień, miasto)
-
-## Struktura plików
+## Pliki
 
 ```
-index.html        # strona główna
-submit.html       # formularz dodawania opinii
-style.css         # style
-app.js            # logika strony głównej
-submit.js         # logika formularza
-universities.json # dane uczelni
-reviews.json      # opinie
+index.html          wyszukiwarka
+submit.html         formularz opinii (Formspree)
+app.js / submit.js  logika stron
+style.css           style
+universities.json   kierunki i ich stopnie
+reviews.json        opinie (po moderacji)
+scripts/add_review.py           dodawanie / usuwanie opinii
+.github/workflows/add-review.yml  to samo z poziomu GitHuba
 ```
+
+## Model danych
+
+Jedna karta na stronie = **jeden kierunek na jednej uczelni**. Stopnie (I, II, podyplomowe) są w środku jako `offers`, więc opinie wyświetlają się raz — nie dublują się na kartach I i II stopnia.
+
+```jsonc
+// universities.json → programs[]
+{
+  "id": "upwr-bioinformatyka",          // stały identyfikator — nie zmieniaj, opinie się do niego odwołują
+  "university": "Uniwersytet Przyrodniczy we Wrocławiu",
+  "short": "UPWr",
+  "faculty": "…",                        // opcjonalnie
+  "name": "Bioinformatyka",
+  "city": "Wrocław",
+  "note": "…",                           // opcjonalnie, widoczne na karcie
+  "offers": [
+    { "level": "I stopień",              // I stopień | II stopień | II stopień – specjalność | studia podyplomowe
+      "duration": "3,5 roku", "degree": "inżynier", "admission": "…", "year": "2026/2027",
+      "url": "…", "curriculum_url": "…", "schedule_url": "…", "note": null }
+  ]
+}
+
+// reviews.json → reviews[]
+{ "id": "rev-2026-0001", "program": "upwr-bioinformatyka", "level": "I stopień" /* albo null */,
+  "year": "2026", "source": "opinia od studentów i absolwentów", "comment": "…" }
+```
+
+Link do konkretnej karty: `…/bioinfo-uni/#upwr-bioinformatyka` — otwiera kartę ze szczegółami (przydatne w postach i DM-ach).
+
+## Jak dodać opinię (moderacja)
+
+Opinie z formularza przychodzą mailem przez Formspree. W mailu jest pole **`admin_json`**.
+
+1. Przeczytaj opinię; jeśli trzeba, popraw literówki albo usuń dane osobowe bezpośrednio w `admin_json`.
+2. GitHub → **Actions → Add review → Run workflow** → wklej `admin_json` w pole **review_json**.
+3. Po ok. minucie opinia jest na stronie. Usunięcie: to samo, pole **remove_id**.
+
+Lokalnie: `python3 scripts/add_review.py --help` (lista kierunków: `--list-programs`).
+
+## Jak dodać kierunek
+
+Dopisz obiekt do `programs` w `universities.json` (wzór wyżej). Kolejny stopień tego samego kierunku → nowy element w `offers` istniejącej karty, nie nowa karta.
 
 ## Dane
 
-**Uczelnie** (`universities.json`) — dane pochodzą z publicznie dostępnych informacji od uczelni (strony rekrutacyjne, informatory ECTS, plany zajęć). Aktualizowane ręcznie.
-
-**Opinie** (`reviews.json`) — zbierane przez GitHub Issues i dodawane po moderacji. Są anonimowe i subiektywne — nie są oficjalnym stanowiskiem uczelni.
-
-## Jak dodać opinię
-
-Przez stronę: kliknij „Dodaj opinię" — formularz tworzy GitHub Issue, które po moderacji trafia do `reviews.json`.
-
-Możesz też napisać bezpośrednio: **biokoderka@gmail.com**
-
-## Jak zgłosić błąd w danych
-
-Otwórz Issue albo napisz na maila powyżej.
+Dane o kierunkach pochodzą z publicznych stron uczelni i są aktualizowane ręcznie. Opinie są anonimowe i subiektywne — nie są stanowiskiem uczelni. Błąd w danych? Issue albo **biokoderka@gmail.com**.
 
 ## Licencja
 

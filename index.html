@@ -1,4 +1,19 @@
-<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Opinie o bioinformatyce w Polsce</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css?v=8"><script defer src="https://umami-rose-alpha.vercel.app/script.js" data-website-id="0f8a4bbd-7790-437c-912f-15149106ebab"></script>
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Studia bioinformatyczne w Polsce — kierunki i opinie | BioInfoUni</title>
+<meta name="description" content="Gdzie studiować bioinformatykę w Polsce? Wszystkie kierunki I i II stopnia oraz studia podyplomowe: rekrutacja, programy, plany zajęć i anonimowe opinie studentów i absolwentów.">
+<link rel="canonical" href="https://biokoderka.github.io/bioinfo-uni/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BioInfoUni">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:title" content="Studia bioinformatyczne w Polsce — kierunki i opinie | BioInfoUni">
+<meta property="og:description" content="Gdzie studiować bioinformatykę w Polsce? Wszystkie kierunki I i II stopnia oraz studia podyplomowe: rekrutacja, programy, plany zajęć i anonimowe opinie studentów i absolwentów.">
+<meta property="og:url" content="https://biokoderka.github.io/bioinfo-uni/">
+<meta property="og:image" content="https://biokoderka.github.io/bioinfo-uni/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0a0010">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230a0010'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle'%3E%F0%9F%8E%93%3C/text%3E%3C/svg%3E">
+<script defer src="https://umami-rose-alpha.vercel.app/script.js" data-website-id="0f8a4bbd-7790-437c-912f-15149106ebab"></script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css?v=9">
 </head><body>
 <header>
   <div class="header-inner">
@@ -11,12 +26,13 @@
     </a>
     <nav class="header-nav">
       <a href="https://biokoderka.github.io/bioinfo-jobs/">💼 Jobs</a>
-      <a href="https://biokoderka.github.io/bioinfo-news/">🧬 News</a>
+      <a href="https://biokoderka.github.io/bioinfo-news/">📰 News</a>
+      <a href="https://biokoderka.github.io/bioinfosites/">🧬 Wszystkie strony</a>
       <a href="submit.html" class="cta">✦ Dodaj opinię</a>
     </nav>
   </div>
 </header>
-<div class="wrap"><header class="hero"><h1>Opinie o studiach bioinformatycznych w Polsce</h1><p>Wyszukiwarka kierunków bioinformatycznych: podstawowe dane rekrutacyjne, linki do oferty i opinie osób studiujących i absolwentów.<br>Dane pochodzą z publicznie dostępnych informacji od uczelni.<br>Opinie pochodzą od studentów i absolwentów.</p></header><section class="notice"><strong>Disclaimer:</strong> Opinie są anonimowe, subiektywne i należą do ich autorów — nie do twórcy strony ani do uczelni. Wyświetlają się przy uczelni, nie przy konkretnym stopniu studiów — jedna opinia może dotyczyć I lub II stopnia. Nowe opinie są dodawane po moderacji. Dane rekrutacyjne mogą się zmieniać w trakcie rekrutacji — jeśli zauważysz nieścisłość, napisz: <strong>biokoderka@gmail.com</strong>.</section><section class="panel"><div class="filters"><input id="q" placeholder="Szukaj uczelni, miasta, kierunku albo frazy z opinii…"><select id="type"><option value="">Wszystkie typy</option><option>I stopień</option><option>II stopień</option><option>II stopień / specjalizacja</option><option>studia podyplomowe</option></select><select id="second"><option value="">II stopień: dowolnie</option><option value="tak">Jest II stopień</option><option value="nie">Brak</option></select><select id="sort"><option value="reviews">Najwięcej opinii</option><option value="name">Alfabetycznie</option></select></div></section><section class="grid" id="top"></section><section class="cards" id="cards"></section>
+<div class="wrap"><header class="hero"><h1>Opinie o studiach bioinformatycznych w Polsce</h1><p>Wyszukiwarka kierunków bioinformatycznych: podstawowe dane rekrutacyjne, linki do oferty i opinie osób studiujących i absolwentów.<br>Dane pochodzą z publicznie dostępnych informacji od uczelni.<br>Opinie pochodzą od studentów i absolwentów.</p></header><section class="notice"><strong>Disclaimer:</strong> Opinie są anonimowe, subiektywne i należą do ich autorów — nie do twórcy strony ani do uczelni. Nowe opinie są dodawane po moderacji. Dane rekrutacyjne mogą się zmieniać w trakcie rekrutacji — jeśli zauważysz nieścisłość, napisz: <strong>biokoderka@gmail.com</strong>.</section><section class="panel"><div class="filters"><input id="q" placeholder="Szukaj uczelni, miasta, kierunku albo frazy z opinii…" aria-label="Szukaj"><select id="type" aria-label="Poziom studiów"><option value="">Wszystkie poziomy</option><option value="I">I stopień</option><option value="II">II stopień</option><option value="podyplomowe">Studia podyplomowe</option></select><select id="city" aria-label="Miasto"><option value="">Wszystkie miasta</option></select><select id="sort" aria-label="Sortowanie"><option value="reviews">Najwięcej opinii</option><option value="name">Alfabetycznie</option><option value="city">Wg miasta</option></select></div><div class="filter-row"><label class="check"><input type="checkbox" id="path"> Tylko z I i II stopniem na tej samej uczelni</label><span id="count"></span></div></section><section class="grid" id="top"></section><section class="cards" id="cards"></section>
 <div style="margin:0 0 20px;background:linear-gradient(135deg,rgba(255,45,155,.08),rgba(180,79,255,.12));border:1px solid rgba(180,79,255,.3);border-radius:16px;padding:24px 28px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;">
   <div>
     <div style="font-size:11px;font-family:'DM Mono',monospace;color:var(--magenta);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;">✦ 1:1 z @biokoderka</div>
@@ -27,4 +43,4 @@
     Umów sesję →
   </a>
 </div>
-<footer class="footer">Masz opinię o uczelni, której nie ma na liście? Napisz do mnie: <strong>biokoderka@gmail.com</strong>. &nbsp;·&nbsp; <a href="privacy.html">Privacy &amp; Terms</a></footer></div><script src="app.js?v=8"></script></body></html>
+<footer class="footer">Brakuje kierunku albo dane są nieaktualne? Napisz: <strong>biokoderka@gmail.com</strong> &nbsp;·&nbsp; <a href="https://instagram.com/biokoderka" target="_blank" rel="noopener">@biokoderka</a> &nbsp;·&nbsp; <a href="https://biokoderka.github.io/bioinfosites/" target="_blank" rel="noopener">🧬 BioinfoSites</a> &nbsp;·&nbsp; <a href="privacy.html">Privacy &amp; Terms</a></footer></div><script src="app.js?v=9"></script></body></html>
