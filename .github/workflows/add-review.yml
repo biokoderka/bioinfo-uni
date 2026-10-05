@@ -1,0 +1,49 @@
+name: Add review
+
+# Opinie z formularza przychodzą mailem (Formspree). Po przeczytaniu:
+# Actions → "Add review" → Run workflow → wklej pole admin_json z maila.
+# Działa też w aplikacji GitHub na telefonie.
+
+on:
+  workflow_dispatch:
+    inputs:
+      review_json:
+        description: "Wklej admin_json z maila Formspree (możesz w nim poprawić literówki / usunąć dane osobowe)"
+        required: false
+      remove_id:
+        description: "…albo: id opinii do usunięcia (np. rev-2026-0003)"
+        required: false
+
+concurrency:
+  group: reviews-json
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Add or remove review
+        env:
+          REVIEW_JSON: ${{ inputs.review_json }}
+          REMOVE_ID: ${{ inputs.remove_id }}
+        run: |
+          if [ -n "$REMOVE_ID" ]; then
+            python scripts/add_review.py --remove "$REMOVE_ID"
+          else
+            python scripts/add_review.py --json "$REVIEW_JSON"
+          fi
+      - name: Commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reviews.json
+          git diff --cached --quiet && exit 0
+          git commit -m "💬 Review update"
+          git pull --rebase origin main
+          git push origin main
